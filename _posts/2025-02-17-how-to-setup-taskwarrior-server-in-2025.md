@@ -13,6 +13,8 @@ image:
 
 # How To Setup Taskwarrior Server In 2025
 
+## Introduction
+
 This is a guide on how to setup a Taskwarrior server for the 2.x.x and 3.x.x versions.
 
 The main differences between the 2.x.x era and the new current 3.x.x versions of taskwarrior is mainly the format where these two are presented and their syncing methods.
@@ -342,4 +344,3 @@ No matter if you use Taskwarrior V2 and V3 you can now sync your data across dif
 Before I could ever knew about it, I used to use Syncthing for syncing my tasks, and they were always having merge conflicts, so I had to try something else. And running a taskwarrior server is definitively a better option.
 
 Note that both Taskwarrior V2 and V3 can export your data in JSON format, which means you can import your data from V2 to V3 or vice-versa, but know that doing it the other way is not officially praised, however it works fine.
-
