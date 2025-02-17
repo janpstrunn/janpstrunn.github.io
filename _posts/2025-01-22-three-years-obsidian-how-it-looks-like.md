@@ -5,7 +5,8 @@ description: Possibilities are infinite, but many are out of scope. Great Obsidi
 categories:
   - Software
 tags:
-  - text-editor gui
+  - text-editor
+  - gui
 image:
   path: /assets/img/2025-01-22-three-years-obsidian-how-it-looks.avif
   alt: Three Years of using Obsidian - Here's How It Looks Like
@@ -58,10 +59,10 @@ This vault is aims to be used with very **few plugins**, that doesn't add any fu
 #### Vim Text Editor
 
 - This is a text editor widely used for those who appreciate the advanced typing without touching the mouse. The best part of it? It's supported by default!
-- The [Relative Line Numbers](https://github.com/nadavspi/obsidian-relative-line-numbers)  and [Scroll Offset](https://github.com/lijyze/scroll-offset) plugins are supposed to be used along with Vim, if you don't want to use it, so you can ignore them
+- The [Relative Line Numbers](https://github.com/nadavspi/obsidian-relative-line-numbers) and [Scroll Offset](https://github.com/lijyze/scroll-offset) plugins are supposed to be used along with Vim, if you don't want to use it, so you can ignore them
 - Vim is not a straight away tool. It will require a lot of practice to see its advantages over standard typing. I recommend checking some cheat sheets and videos before trying it
 - To enable Vim go to Editor > Advanced > Vim key bindings
-	- Don't fear the intimidating confirmation popup. Crossing this line, means you leveled up your Obsidian experience
+  - Don't fear the intimidating confirmation popup. Crossing this line, means you leveled up your Obsidian experience
 
 #### The Folder Structure
 
@@ -70,10 +71,10 @@ It's a deviated philosophy of keeping no folders, but for good reasons.
 ##### Notes
 
 - To keep all notes truly organized, this is the only folder where notes live
-	- This enforces a better filename and note tags choice for a better note retrieval
-	- This folder also includes fleeting notes
-		- You can keep aware of your fleeting notes by tagging it as it, and then use queries or search for them
-	- This style makes sure **you will never have to deal with file management** ever again
+  - This enforces a better filename and note tags choice for a better note retrieval
+  - This folder also includes fleeting notes
+    - You can keep aware of your fleeting notes by tagging it as it, and then use queries or search for them
+  - This style makes sure **you will never have to deal with file management** ever again
 - To get back to your notes, use the Quick Switcher instead of the built-in file explorer
 
 > Tip, if you need to apply a new convention to your notes, do it as you get to them, and not all at once. It's a very time consuming task if you are not scripting the process.
@@ -82,9 +83,9 @@ It's a deviated philosophy of keeping no folders, but for good reasons.
 
 - The home for your daily notes (optionally)
 - It's subdivided into three more folders: Daily, Week and Month (optionally)
-	- I do use [Templater](https://github.com/SilentVoid13/Templater), so different note templates are applied to each folder. That's the only reason why it's divided like this
-	- If you plan to use it, set the `Journal - Week Note` as your Week template, else use `Journal - Week Note - Vanilla`
-		- The Templater Week Note requires to be created at **SUNDAY** to it apply correctly
+  - I do use [Templater](https://github.com/SilentVoid13/Templater), so different note templates are applied to each folder. That's the only reason why it's divided like this
+  - If you plan to use it, set the `Journal - Week Note` as your Week template, else use `Journal - Week Note - Vanilla`
+    - The Templater Week Note requires to be created at **SUNDAY** to it apply correctly
 
 > I'll be talking more in depth about templates in a further section.
 
@@ -101,6 +102,7 @@ It's a deviated philosophy of keeping no folders, but for good reasons.
 - This is important for a better template convenience, so the popup will always display templates only, which having to name it Template and search for it
 
 #### Files
+
 ##### Frontmatter
 
 This was one of my major challenges over my experience. How to keep the frontmatter powerful, easy to manage and simple? I ended with only four properties.
@@ -118,40 +120,40 @@ You may take the advantages of nested tagging: `#tag/nested`.
 Here are some examples on how you could be tagging your notes in a way it doesn't matter what it is, it just works:
 
 - **Information Type**
-	- `#procedure` - Any note that contains a practical step-by-step on how to do something
-	- `#analogy` - Relate something you already know to something new
-	- `#concept` - A new fact
-	- `#evidence` - A fact that complements a concept
-	- `#reference` - A fact that doesn't complement a concept
+  - `#procedure` - Any note that contains a practical step-by-step on how to do something
+  - `#analogy` - Relate something you already know to something new
+  - `#concept` - A new fact
+  - `#evidence` - A fact that complements a concept
+  - `#reference` - A fact that doesn't complement a concept
 - **Broader Area**
-	- `#personal`
-		- `#personal/hobbies`
-		- `#personal/feel`
-	- `#work`
-		- `#work/programming`
-		- `#work/medicine`
-		- `#work/engineering`
-		- `#work/law`
+  - `#personal`
+    - `#personal/hobbies`
+    - `#personal/feel`
+  - `#work`
+    - `#work/programming`
+    - `#work/medicine`
+    - `#work/engineering`
+    - `#work/law`
 - **Source**
-	- `#source`
-		- `#source/article`
-		- `#source/book`
-		- `#source/video`
+  - `#source`
+    - `#source/article`
+    - `#source/book`
+    - `#source/video`
 - **Entity**
-	- `#people`
-		- `#people/coworker`
-		- `#people/familiar`
-		- `#people/friend`
-	- `#place`
-	- `#object`
+  - `#people`
+    - `#people/coworker`
+    - `#people/familiar`
+    - `#people/friend`
+  - `#place`
+  - `#object`
 - **Priority**
-	- `#important`
-	- `#urgent`
+  - `#important`
+  - `#urgent`
 - **Relevance**
-	- `#useful`
+  - `#useful`
 - **Special Tags**
-	- `#query` - Notes that contains Obsidian queries. Allows to query queries, yep
-	- `#index` - Notes that contains a collection of other notes to guide you
+  - `#query` - Notes that contains Obsidian queries. Allows to query queries, yep
+  - `#index` - Notes that contains a collection of other notes to guide you
 
 ###### Source
 
@@ -166,9 +168,9 @@ The used snippets in this vault are from [janpstrunn/obsidian-snippets](https://
 1. `img` - This centers all images
 2. `justify` - Justify text (disabled by default)
 3. `colorizer` - Changes note colors
-	- Available colors are: `red green pink red blue yellow orange purple black grey`
-	- You may use this to visually categorize notes
-		- Example: All notes dedicated to people are green, year notes are red, and so on
+   - Available colors are: `red green pink red blue yellow orange purple black grey`
+   - You may use this to visually categorize notes
+     - Example: All notes dedicated to people are green, year notes are red, and so on
 4. `elegantvagrant` - The dark theme this vault uses
 
 ##### Templates
@@ -176,47 +178,47 @@ The used snippets in this vault are from [janpstrunn/obsidian-snippets](https://
 This vault has currently 23 templates, which you can use and take inspiration from.
 
 - **Information Type**
-	- To easily apply information type tags, without having to manually insert it, there are the five tags I mentioned before as templates:
-		- `Procedure - Template`
-		- `Analogy - Template`
-		- `Concept - Template`
-		- `Evidence - Template`
-		- `Reference - Template`
+  - To easily apply information type tags, without having to manually insert it, there are the five tags I mentioned before as templates:
+    - `Procedure - Template`
+    - `Analogy - Template`
+    - `Concept - Template`
+    - `Evidence - Template`
+    - `Reference - Template`
 - **Journal**
-	- Each daily note type has their own templates, as I mentioned before, as follows:
-		- `Journal - Daily`
-		- `Journal - Month`
-		- `Journal - Week Note`
-		- `Journal - Week Note - Vanilla`
-	- The Journal Daily has four sections: Agenda, Journal, Diary and Review
-		- **Agenda** - For all your today's tasks you are about to do, or completed
-		- **Journal** - What you have been doing throughout the day. Use timestamps
-		- **Diary** - Subdivided as:
-			- Key-words - Few words, that defines you whole day
-			- Emotions - What have you felt during the day?
-			- Gratitude - What are the three things you are grateful for?
-		- **Review** - Your thoughts you had in that day, with some other commented questions to help you reflect
+  - Each daily note type has their own templates, as I mentioned before, as follows:
+    - `Journal - Daily`
+    - `Journal - Month`
+    - `Journal - Week Note`
+    - `Journal - Week Note - Vanilla`
+  - The Journal Daily has four sections: Agenda, Journal, Diary and Review
+    - **Agenda** - For all your today's tasks you are about to do, or completed
+    - **Journal** - What you have been doing throughout the day. Use timestamps
+    - **Diary** - Subdivided as:
+      - Key-words - Few words, that defines you whole day
+      - Emotions - What have you felt during the day?
+      - Gratitude - What are the three things you are grateful for?
+    - **Review** - Your thoughts you had in that day, with some other commented questions to help you reflect
 - **Source**
-	- `Source - Template`
-		- If your note can include the original work, use it
-	- To easily apply source tags, just like information type templates
-		- `Source - Article`
-		- `Source - Blog Template`
-		- `Source - Book Template`
-		- `Source - Video Template`
+  - `Source - Template`
+    - If your note can include the original work, use it
+  - To easily apply source tags, just like information type templates
+    - `Source - Article`
+    - `Source - Blog Template`
+    - `Source - Book Template`
+    - `Source - Video Template`
 - **Note types**
-	- `Minimal - Template`
-		- Standard template, if you wish
-	- `Fleeting - Template`
-		- For all your new created ephemeral notes
-	- `Index - Template`
-		- Tags `#index` for  you
+  - `Minimal - Template`
+    - Standard template, if you wish
+  - `Fleeting - Template`
+    - For all your new created ephemeral notes
+  - `Index - Template`
+    - Tags `#index` for you
 - **Other creative**
-	- Blogging - Template
-	- Book - Template
-	- People - Template
-	- Project - Template
-	- Project Proposal Note
+  - Blogging - Template
+  - Book - Template
+  - People - Template
+  - Project - Template
+  - Project Proposal Note
 
 ##### Naming Convention
 
@@ -226,22 +228,34 @@ Naming files correctly is the core for better retrieval. Here are some tips on h
 # Images
 
 ## Wallpaper
+
 wppr-horizon.jpg
+
 ## Avatar
+
 avatar-me.jpg
+
 ## Meme
+
 meme-risitas.jpg
+
 ## People
+
 pp-john-doe.jpg
 
 # Markdown
 
 ## Languages
+
 lang-german.md
 lang-python-pandoc.md
+
 ## Templates
+
 template-article.md
+
 ## Memories
+
 mem-letter.md
 ```
 
@@ -260,14 +274,14 @@ Found at the top left sidebar. Press `Alt + 1` to quickly show the outliner and 
 Found at the top left sidebar. Press `Alt + 2` to quickly show it. This feature is fairly more interesting to deal with most frequent notes. Some predefined bookmarks are set.
 
 - **Clean Graph**
-	- It is a bookmarked Graph that hides Journals and Template folders
+  - It is a bookmarked Graph that hides Journals and Template folders
 - **File Types**
-	- Contains obsidian queries for different file types (PDF, Video, Audio, Image and Canvas)
+  - Contains obsidian queries for different file types (PDF, Video, Audio, Image and Canvas)
 - **Quickmarks**
-	- Just like I mentioned in the aliases section, but set out from the note
-	- The predefined bookmark called T takes you to this file [[Tips]]
-		- Press  `Ctrl + O` (Quick Switcher) and type Tips to access it
-		- As Obsidian's Quick Switcher allows fuzzy finder, you don't actually have to rely heavily on this. It's just an idea on how you can use it
+  - Just like I mentioned in the aliases section, but set out from the note
+  - The predefined bookmark called T takes you to this file [[Tips]]
+    - Press `Ctrl + O` (Quick Switcher) and type Tips to access it
+    - As Obsidian's Quick Switcher allows fuzzy finder, you don't actually have to rely heavily on this. It's just an idea on how you can use it
 
 ##### Tags
 
@@ -299,52 +313,52 @@ If you are up to using plugins, these fits perfectly into Obsidian vanilla exper
 ##### Vim Must Have
 
 - [Obsidian Relative Line Numbers](https://github.com/nadavspi/obsidian-relative-line-numbers)
-	- Line numbers are relative to cursor position.
+  - Line numbers are relative to cursor position.
 - [Scroll Offset](https://github.com/lijyze/scroll-offset)
-	- When scrolling using hotkeys, the page moves before the cursor reaches the bottom of the screen
+  - When scrolling using hotkeys, the page moves before the cursor reaches the bottom of the screen
 
 ##### Must Have
 
 - [Copy Block Link](https://github.com/mgmeyers/obsidian-copy-block-link)
-	- Allows you to easily copy the block reference or embed reference through your mouse or set hotkey
+  - Allows you to easily copy the block reference or embed reference through your mouse or set hotkey
 - [Obsidian Footnotes](https://github.com/MichaBrugger/obsidian-footnotes)
-	- Allows to easily create footnotes and navigate them using keybindings
+  - Allows to easily create footnotes and navigate them using keybindings
 - [Journals](https://github.com/srg-kostyrko/obsidian-journal)
-	- Substitute to the outdated [Calendar](https://github.com/liamcain/obsidian-calendar-plugin) and [Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes) plugins
-	- Has both calendar and periodic note types (daily, week, month, quaterly and year note) in a single plugin, plus some extra additions
+  - Substitute to the outdated [Calendar](https://github.com/liamcain/obsidian-calendar-plugin) and [Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes) plugins
+  - Has both calendar and periodic note types (daily, week, month, quaterly and year note) in a single plugin, plus some extra additions
 - [Obsidian Linter](https://github.com/platers/obsidian-linter)
-	- Put your markdown into standards, by allowing it to fix all markdown syntax typos for you
-		- Adjust the whole file to keep it looking nice by removing extra lines, ordering footnotes...
-	- When installing it, you must configure it before using!
-		- Configure it to properly fix the `Linter` note, present in this vault
+  - Put your markdown into standards, by allowing it to fix all markdown syntax typos for you
+    - Adjust the whole file to keep it looking nice by removing extra lines, ordering footnotes...
+  - When installing it, you must configure it before using!
+    - Configure it to properly fix the `Linter` note, present in this vault
 - [Tag Wrangler](https://github.com/pjeby/tag-wrangler)
-	- To manage quickly and efficiently tags in bulk
+  - To manage quickly and efficiently tags in bulk
 - [Templater](https://github.com/SilentVoid13/Templater)
-	- Automate boring template usage
-	- The Journal Templates use this plugin
+  - Automate boring template usage
+  - The Journal Templates use this plugin
 - [Obsidian Various Complements](https://github.com/tadashi-aikawa/obsidian-various-complements-plugin)
-	- Gives auto-completion to Obsidian
-	- Allows to easily type note pages without opening brackets (`[[Note]]`)
-	- As your file gets richer in details, often used words will know display a suggestion to auto-complete it
+  - Gives auto-completion to Obsidian
+  - Allows to easily type note pages without opening brackets (`[[Note]]`)
+  - As your file gets richer in details, often used words will know display a suggestion to auto-complete it
 - [Zen Mode](https://github.com/paperbenni/obsidian-zenmode)
-	- Hide all UI
+  - Hide all UI
 
 ##### Extra
 
 - ~~[Image Converter](https://github.com/xryul/obsidian-image-converter)~~
-	- ~~Allows you to convert images to compress them~~
-		- ~~Recommended to set JPG at 75% quality~~
-		- ~~An alternative to JPG is AVIF, which is not supported by Image Converter, but has higher compression results~~
-	- Obsidian is not an image converter. You may use an external tool for image compression, like I've done myself
-		- [janpstrunn/__convert-avif.sh](https://github.com/janpstrunn/dotfiles/blob/main/scripts/__convert-avif.sh)
-		- [janpstrunn/__update-image-links.sh](https://github.com/janpstrunn/dotfiles/blob/main/scripts/__update-image-links.sh)
+  - ~~Allows you to convert images to compress them~~
+    - ~~Recommended to set JPG at 75% quality~~
+    - ~~An alternative to JPG is AVIF, which is not supported by Image Converter, but has higher compression results~~
+  - Obsidian is not an image converter. You may use an external tool for image compression, like I've done myself
+    - [janpstrunn/\_\_convert-avif.sh](https://github.com/janpstrunn/dotfiles/blob/main/scripts/__convert-avif.sh)
+    - [janpstrunn/\_\_update-image-links.sh](https://github.com/janpstrunn/dotfiles/blob/main/scripts/__update-image-links.sh)
 - [Janitor](https://github.com/Canna71/obsidian-janitor)
-	- Looks for orphan notes and unused embeds, and optionally removes them
+  - Looks for orphan notes and unused embeds, and optionally removes them
 - [Multi Properties](https://github.com/technohiker/obsidian-multi-properties)
-	- Same as Tag Wrangler, but for Properties
-		- Properties don't change often, so it's a once a year plugin
+  - Same as Tag Wrangler, but for Properties
+    - Properties don't change often, so it's a once a year plugin
 - [Paste Image Rename](https://github.com/reorx/obsidian-paste-image-rename)
-	- Allows you to rename images when pasting to Obsidian
+  - Allows you to rename images when pasting to Obsidian
 
 #### Daily Notes
 

@@ -5,7 +5,8 @@ description: Learn how to sync your tasks the right way!
 categories:
   - Software
 tags:
-  - task-management cli
+  - task-management
+  - cli
 image:
   path: /assets/img/2025-02-17-how-to-setup-taskwarrior-server-in-2025.avif
   alt: How to Setup Taskwarrior Server in 2025
@@ -46,8 +47,8 @@ This will be a bare, simple, straight-forward, poor and dry redo of the already 
 
 If you get questions on the setup, I do recommend you check the official guide, since it does give better explanations.
 
-> [!WARNING]
-> Taskserver is only compatible with Taskwarrior 2.x.x, and is no longer actively developed.
+> **Warning:** Taskserver is only compatible with Taskwarrior 2.x.x, and is no longer actively developed.
+> {: .prompt-warning}
 
 ### Dependencies
 
