@@ -5,7 +5,7 @@ description: Possibilities are infinite, but many are out of scope. Great Obsidi
 categories:
   - Software
 tags:
-  - text-editor
+  - text-editor gui
 image:
   path: /assets/img/2025-01-22-three-years-obsidian-how-it-looks.avif
   alt: Three Years of using Obsidian - Here's How It Looks Like
