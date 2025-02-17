@@ -326,7 +326,7 @@ task sync init
 
 The command you will be most using is `task sync` for everytime you want to sync your tasks with the server. Optionally, to spare the necessity to run this every single time, you may add a `crontab` to run this command every 10 minutes, exemplified as follows:
 
-```cron
+```bash
 */10 * * * * /usr/bin/task sync >/dev/null 2>&1
 ```
 
