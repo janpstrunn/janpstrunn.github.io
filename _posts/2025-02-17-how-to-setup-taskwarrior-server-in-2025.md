@@ -38,7 +38,8 @@ For this guide, I will be focusing in two amazing tools for running a server:
 - [taskserver](https://github.com/GothenburgBitFactory/taskserver) for the 2.x.x series
 - [taskchampion](https://github.com/GothenburgBitFactory/taskchampion-sync-server) for the 3.x.x series.
 
-> **Note:** I'll not be talking about how to setup Google Cloud or AWS S3 for Takswarrior V3 in this post
+> I'll not be talking about how to setup Google Cloud or AWS S3 for Takswarrior V3 in this post
+{: .prompt-warning }
 
 ## Taskwarrior V2
 
@@ -46,7 +47,8 @@ This will be a bare, simple, straight-forward, poor and dry redo of the already 
 
 If you get questions on the setup, I do recommend you check the official guide, since it does give better explanations.
 
-> **Warning:** Taskserver is only compatible with Taskwarrior 2.x.x, and is no longer actively developed.
+> Taskserver is only compatible with Taskwarrior 2.x, and is no longer actively developed.
+{: .prompt-warning }
 
 ### Dependencies
 
@@ -187,7 +189,8 @@ taskd add user 'Public' 'Username' # Creates an user to an organization
 
 Now to setup the user certificates you will have to go back to `pki` directory and run the `generate.client` script.
 
-> **NOTE:**The `generate.client` requires some of the certificates you generated on the server setup to work. In case you moved it from there, make a copy to the `pki` directory
+> The `generate.client` requires some of the certificates you generated on the server setup to work. In case you moved it from there, make a copy to the `pki` directory
+{: .prompt-warning }
 
 ```bash
 cd ~/$TASKDDATA$/pki
@@ -215,7 +218,8 @@ task config taskd.credentials -- Public/Username/cf31f287-ee9e-43a8-843e-e8bbd5d
 
 You must send all your tasks to the server running:
 
-> **CAUTION:** This is something you should only do once on only one device.
+> This is something you should only do once on only one device.
+{: .prompt-warning }
 
 ```bash
 task sync init
@@ -270,7 +274,8 @@ To use `-C` or `--allow-client-id`, you may create an UUID running the `uuidgen`
 To use `-d` or `--data-dir`, you have to point the path to where taskchampion should save the files.
 If your server is not pointing to the `8080` port, you must set this, if not it will not work. You may do it using `-p=8080`.
 
-> **WARNING:** If you already use taskwarrior, do not point `-d` to the existing directory, because it will wipe all your data!
+> If you already use taskwarrior, do not point `-d` to the existing directory, because it will wipe all your data!
+{: .prompt-warning }
 
 To set this up, follow the example:
 
@@ -318,7 +323,8 @@ WantedBy=multi-user.target
 
 You must send all your tasks to the server running:
 
-> **CAUTION:** This is something you should only do once on only one device.
+> This is something you should only do once on only one device.
+{: .prompt-warning }
 
 ```bash
 task sync init
