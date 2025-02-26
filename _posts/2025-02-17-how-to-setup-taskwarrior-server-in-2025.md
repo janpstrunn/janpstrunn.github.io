@@ -7,6 +7,7 @@ categories:
 tags:
   - task-management
   - cli
+  - self-host
 image:
   path: /assets/img/2025-02-17-how-to-setup-taskwarrior-server-in-2025.avif
   alt: How to Setup Taskwarrior Server in 2025
