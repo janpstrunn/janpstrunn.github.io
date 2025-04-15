@@ -1,7 +1,7 @@
 ---
 title: How to Install Spelling in Neovim
 date: 2025-04-15
-description:
+description: Neovim does not have support for spelling other than English by default. Here are how you can get the required files to enable spelling in `neovim`.
 categories:
     - Software
 tags:
@@ -38,7 +38,7 @@ unzip veroptbrv320aoc.oxt
 
 The result will be like this:
 
-```plain
+```
 ├── description.xml
 ├── dialog
 │   ├── OptionsDialog.xcs
