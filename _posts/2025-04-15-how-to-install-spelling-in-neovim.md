@@ -1,11 +1,12 @@
 ---
 title: How to Install Spelling in Neovim
 date: 2025-04-15
-description: Neovim does not have support for spelling other than English by default. Here are how you can get the required files to enable spelling in `neovim`.
+description: Neovim does not have support for spelling other than English by default. Here are how you can get the required files to enable spelling in Neovim.
 categories:
     - Software
 tags:
     - howto
+    - cli
 ---
 
 # Neovim Spelling
