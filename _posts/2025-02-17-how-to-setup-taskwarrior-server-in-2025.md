@@ -269,11 +269,11 @@ The binary will be created at `/target/release/taskchampion-sync-server`, and yo
 export PATH="$HOME/.local/bin/:$PATH"
 ```
 
-You can already run you server with the following command `taskchampion-sync-server`. But you may set some options to it. We will be using the `-C` and `-d` options.
+You can already run you server with the following command `taskchampion-sync-server`. But you may set some options to it. We will be using the `--listen`, `-C` and `-d` options.
 
+To use `--listen`, you have to specify where the server will be available at: `www.example.com`, `192.168.0.5:8080` or `localhost:8080`
 To use `-C` or `--allow-client-id`, you may create an UUID running the `uuidgen` command (mostly available at Linux systems).
 To use `-d` or `--data-dir`, you have to point the path to where taskchampion should save the files.
-If your server is not pointing to the `8080` port, you must set this, if not it will not work. You may do it using `-p=8080`.
 
 > If you already use taskwarrior, do not point `-d` to the existing directory, because it will wipe all your data!
 {: .prompt-warning }
@@ -281,7 +281,7 @@ If your server is not pointing to the `8080` port, you must set this, if not it 
 To set this up, follow the example:
 
 ```bash
-taskchampion-sync-server -C 6b00cabe-4e17-405f-878b-5b61a99cf326 -d /home/user/.taskchampion
+taskchampion-sync-server --listen localhost:8080 -C 6b00cabe-4e17-405f-878b-5b61a99cf326 -d /home/user/.taskchampion
 ```
 
 Finally, you will have to tell taskwarrior where your server is, and how it should talk to it. So you must provide three configuration details to it.
