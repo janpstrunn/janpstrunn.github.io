@@ -350,7 +350,7 @@ If you are up to using plugins, these fits perfectly into Obsidian vanilla exper
     - ~~Recommended to set JPG at 75% quality~~
     - ~~An alternative to JPG is AVIF, which is not supported by Image Converter, but has higher compression results~~
   - Obsidian is not an image converter. You may use an external tool for image compression, like I've done myself
-    - [janpstrunn/\_\_convert-avif.sh](https://github.com/janpstrunn/dotfiles/blob/main/scripts/__convert-avif.sh)
+    - [janpstrunn/converter](https://github.com/janpstrunn/dotfiles/blob/main/scripts/converter)
     - [janpstrunn/\_\_update-image-links.sh](https://github.com/janpstrunn/dotfiles/blob/main/scripts/__update-image-links.sh)
 - [Janitor](https://github.com/Canna71/obsidian-janitor)
   - Looks for orphan notes and unused embeds, and optionally removes them
